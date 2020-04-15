@@ -21,3 +21,8 @@ Run './host.sh' and you're off to the races! Access your domain to see the site 
 Make sure your browser tells you the cert is working.
 
 You may need to change the host networking type in `.devcontainer/docker-compose.yaml` if you are not seeing results of the forwarding. 
+
+## Requirements
+
+- Docker Desktop, can be installed using `cinst docker-desktop -y`; will need to restart computer after install
+- VSCode, can be installed usign `cinst vscode -y`
