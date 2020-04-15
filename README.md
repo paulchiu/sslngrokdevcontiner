@@ -1,5 +1,12 @@
 # Ngrok Forwarding
 
+## Requirements
+
+- Follow [VS Code remote containers installation guide](https://code.visualstudio.com/docs/remote/containers#_installation)
+- [Run the project in a VS Code container](https://code.visualstudio.com/docs/remote/containers#_quick-start-open-an-existing-folder-in-a-container)
+
+## Instructions
+
 For this example, I'm using my ngrok reserved domain of jodogrok. Go get your own!
 
 This will connect ngrok, set up SSL and save it to `/letsencrypt` and configure nginx.
@@ -21,8 +28,3 @@ Run './host.sh' and you're off to the races! Access your domain to see the site 
 Make sure your browser tells you the cert is working.
 
 You may need to change the host networking type in `.devcontainer/docker-compose.yaml` if you are not seeing results of the forwarding. 
-
-## Requirements
-
-- Docker Desktop, can be installed using `cinst docker-desktop -y`; will need to restart computer after install
-- VSCode, can be installed usign `cinst vscode -y`
