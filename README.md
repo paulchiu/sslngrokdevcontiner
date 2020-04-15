@@ -3,6 +3,7 @@
 ## Requirements
 
 - Follow [VS Code remote containers installation guide](https://code.visualstudio.com/docs/remote/containers#_installation)
+- [Make sure C drive is shared in docker](https://github.com/docker/for-win/issues/3174#issuecomment-477417558)
 - [Run the project in a VS Code container](https://code.visualstudio.com/docs/remote/containers#_quick-start-open-an-existing-folder-in-a-container)
 
 ## Instructions
