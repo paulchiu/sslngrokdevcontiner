@@ -29,3 +29,9 @@ Open a VSCode Terminal, run './host.sh' and you're off to the races! Access your
 Make sure your browser tells you the cert is working.
 
 You may need to change the host networking type in `.devcontainer/docker-compose.yaml` if you are not seeing results of the forwarding. 
+
+## Troubleshooting
+
+### Issues related to bash commands
+
+Make sure line endings are in unix format. Use `dos2unix` if Windows `git` checked out files in with incompatible line endings.
